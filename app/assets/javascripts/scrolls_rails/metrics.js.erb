@@ -1,0 +1,12 @@
+<% url = ScrollsRails::Engine.routes.url_helpers %>
+
+var Scrolls = {
+  log: function(measurement) {
+    $.ajax({
+      type: "POST",
+      url: "<%= url.log_path %> ",
+      data: {measurement: measurement},
+      dataType: "text"
+    })
+  }
+}

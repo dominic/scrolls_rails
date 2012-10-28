@@ -22,8 +22,8 @@ And add scrolls_rails's routes to your routes file:
 
 ## Usage
 
-scrolls_rails uses the same syntax you're already familiar with to log
-events: 
+scrolls_rails uses the syntax you're already familiar with, to log events from
+Javascript:
 
 ```javascript
 Scrolls.log({fn: "items", at: "viewed_list"})
